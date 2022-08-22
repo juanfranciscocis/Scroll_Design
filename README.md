@@ -1,16 +1,21 @@
-# scroll_design
+# Scroll Design
 
-A new Flutter project.
+This flutter project is just a simple design layout.
 
-## Getting Started
+## How To Open The Project?
+1. Download and open all of the project file using a flutter compatible IDE.
+2. I recomend IntelliJ IDEA
+3. Run the app using the iOS emulator, android emulator or google chrome.
 
-This project is a starting point for a Flutter application.
+## I'm looking your CV (Curriculum Vitae), where can I find useful info about this project?
+You can take a look at some images here:
+#### iOS app
 
-A few resources to get you started if this is your first Flutter project:
+<img src = 'https://github.com/juanfranciscocis/Building_Layouts/blob/8c2972a691378e58bc22cdfe25b8e6fac1b5a881/README%20IMAGES/iOS/1.png' width = 300/>
+<img src = 'https://github.com/juanfranciscocis/Building_Layouts/blob/8c2972a691378e58bc22cdfe25b8e6fac1b5a881/README%20IMAGES/iOS/2.png' width = 300/>
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+#### Web app (Google Chrome)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+<img src = 'https://github.com/juanfranciscocis/Building_Layouts/blob/8c2972a691378e58bc22cdfe25b8e6fac1b5a881/README%20IMAGES/Chrome/1.png' width = 300/>
+<img src = 'https://github.com/juanfranciscocis/Building_Layouts/blob/8c2972a691378e58bc22cdfe25b8e6fac1b5a881/README%20IMAGES/Chrome/2.png' width = 300/>
