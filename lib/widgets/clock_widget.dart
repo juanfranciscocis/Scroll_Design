@@ -25,9 +25,6 @@ class ClockWidget extends StatelessWidget {
             Expanded(child: Container(),),
             Icon(Icons.arrow_downward,color: Colors.white,size: 100,),
 
-
-
-
           ]
       ),
     );

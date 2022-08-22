@@ -7,14 +7,33 @@ class ScrollDesignScreen extends StatelessWidget{
 
   @override
   Widget build(BuildContext context) {
-    return  Scaffold(
-      body: Stack(children:[
-        //BACKGROUND IMAGE
-        BackgroundWidget(),
-        //MAIN CONTENT
-        ClockWidget(),
+    const boxDecoration = BoxDecoration(
+          gradient: LinearGradient(
+            colors: [
+              Color(0xff5EE8C5),
+              Color(0xff30BAD6),
+            ],
+            begin: Alignment.topCenter,
+            end: Alignment.bottomCenter,
+            stops: [0.5,0.5]
 
-      ]),
+          )
+        );
+    return  Scaffold(
+      //backgroundColor: Color(0xff96e9cc),
+      body: Container(
+        decoration: boxDecoration,
+        child: PageView(
+          physics: const BouncingScrollPhysics(),
+          scrollDirection: Axis.vertical,
+          children:const [
+            Page1Widget(),
+            Page2Widget(),
+
+        ]),
+      ),
     );
   }
 }
+
+
