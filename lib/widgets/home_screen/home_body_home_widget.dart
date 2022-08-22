@@ -3,8 +3,8 @@
 import 'package:flutter/material.dart';
 import 'package:scroll_design/widgets/widgets.dart';
 
-class HomeBody extends StatelessWidget {
-  const HomeBody({
+class HomeBodyWidget extends StatelessWidget {
+  const HomeBodyWidget({
     Key? key,
   }) : super(key: key);
 

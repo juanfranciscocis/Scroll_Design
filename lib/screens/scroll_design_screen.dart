@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 
 import 'package:scroll_design/widgets/widgets.dart';
 
+import '../widgets/welcome_screen/page_2_widget.dart';
+
 class ScrollDesignScreen extends StatelessWidget{
   const ScrollDesignScreen({Key? key}) : super(key: key);
 

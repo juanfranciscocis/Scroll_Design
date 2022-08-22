@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+
 import '../widgets/widgets.dart';
 
 class HomeScreen extends StatelessWidget{
@@ -10,15 +11,35 @@ class HomeScreen extends StatelessWidget{
     return Scaffold(
       body: Stack(
         children:[
-          //BACKGROUND
-          BackgroundHomeWidget(),
 
-          HomeBody(), //MAIN CONTENT
+          BackgroundHomeWidget(),//BACKGROUND
+
+
+
+          SingleChildScrollView(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children:[
+
+                HomeBodyWidget(), //MAIN CONTENT
+
+                CardTableWidget(), //CARD TABLE FOR THE CARDS
+
+              ],
+            ),
+          ),
+
+
+
+
 
         ]
-      )
+      ),
+          bottomNavigationBar: CustomBottomNavigatorWidget(),
     );
   }
 }
+
+
 
 

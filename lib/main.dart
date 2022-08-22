@@ -17,6 +17,7 @@ class MyApp extends StatelessWidget{
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       initialRoute: 'scroll_design',
+      theme: ThemeData.light(),//THEME LIGHT
       routes: {
         'scroll_design': (context) => ScrollDesignScreen(),
         'home': (context) => HomeScreen(),

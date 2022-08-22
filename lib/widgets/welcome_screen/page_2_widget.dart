@@ -1,4 +1,6 @@
 
+import 'dart:ui';
+
 import 'package:flutter/material.dart';
 import 'package:scroll_design/widgets/widgets.dart';
 
@@ -21,7 +23,7 @@ class Page2Widget extends StatelessWidget {
           elevation: 20,
           color: Color(0xff30BAD6),
           shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(10),
+            borderRadius: BorderRadius.circular(30),
           ),
 
           child: Container(
