@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:scroll_design/screens/screens.dart';
 
 void main(){
@@ -12,6 +13,7 @@ class MyApp extends StatelessWidget{
 
   @override
   Widget build(BuildContext context) {
+    SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle.light); //STATUS BAR COLOR WHITE
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       initialRoute: 'scroll_design',

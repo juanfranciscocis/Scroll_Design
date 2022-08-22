@@ -13,8 +13,12 @@ class HomeScreen extends StatelessWidget{
           //BACKGROUND
           BackgroundHomeWidget(),
 
+          HomeBody(), //MAIN CONTENT
+
         ]
       )
     );
   }
 }
+
+
