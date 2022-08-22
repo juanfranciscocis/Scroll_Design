@@ -11,11 +11,9 @@ This flutter project is just a simple design layout.
 You can take a look at some images here:
 #### iOS app
 
-<img src = 'https://github.com/juanfranciscocis/Building_Layouts/blob/8c2972a691378e58bc22cdfe25b8e6fac1b5a881/README%20IMAGES/iOS/1.png' width = 300/>
-<img src = 'https://github.com/juanfranciscocis/Building_Layouts/blob/8c2972a691378e58bc22cdfe25b8e6fac1b5a881/README%20IMAGES/iOS/2.png' width = 300/>
-
-#### Web app (Google Chrome)
-
-
-<img src = 'https://github.com/juanfranciscocis/Building_Layouts/blob/8c2972a691378e58bc22cdfe25b8e6fac1b5a881/README%20IMAGES/Chrome/1.png' width = 300/>
-<img src = 'https://github.com/juanfranciscocis/Building_Layouts/blob/8c2972a691378e58bc22cdfe25b8e6fac1b5a881/README%20IMAGES/Chrome/2.png' width = 300/>
+<p float="left">
+  <img src="https://github.com/juanfranciscocis/Scroll_Design/blob/b6c7088506615600e0112c69fd0e4449662a6e4b/README%20IMAGES/iOS/1.png"width="300"/>
+  <img src="https://github.com/juanfranciscocis/Scroll_Design/blob/b6c7088506615600e0112c69fd0e4449662a6e4b/README%20IMAGES/iOS/2.png"width="300"/>
+  <img src="https://github.com/juanfranciscocis/Scroll_Design/blob/b6c7088506615600e0112c69fd0e4449662a6e4b/README%20IMAGES/iOS/3.png"width="300"/>
+  <img src="https://github.com/juanfranciscocis/Scroll_Design/blob/b6c7088506615600e0112c69fd0e4449662a6e4b/README%20IMAGES/iOS/4.png"width="300"/>
+</p>
