@@ -13,8 +13,10 @@ class Page2Widget extends StatelessWidget {
       color:Color(0xff30BAD6),
       child: TextButton(
         onPressed: () {
-
+          Navigator.pushReplacementNamed(context, 'home');
         },
+
+
         child: Card(
           elevation: 20,
           color: Color(0xff30BAD6),

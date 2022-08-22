@@ -17,6 +17,7 @@ class MyApp extends StatelessWidget{
       initialRoute: 'scroll_design',
       routes: {
         'scroll_design': (context) => ScrollDesignScreen(),
+        'home': (context) => HomeScreen(),
       },
     );
   }
